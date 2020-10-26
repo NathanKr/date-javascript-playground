@@ -1,4 +1,4 @@
-console.log('app is loading ...');
+console.log('app is loading ...\n');
 
 const helper = require('./helper');
 helper.showNow()
