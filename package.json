@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/NathanKr/world-time-api-playground/issues"
   },
-  "homepage": "https://github.com/NathanKr/world-time-api-playground#readme"
+  "homepage": "https://github.com/NathanKr/world-time-api-playground#readme",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
 }
