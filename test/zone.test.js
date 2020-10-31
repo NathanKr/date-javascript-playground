@@ -13,3 +13,7 @@ test('getHours is not 20 for dateGreeneech in israel PC because localtime is use
  test('getUTCHours is 20 for dateGreeneech',()=>{
      expect(dateGreeneech.getUTCHours()).toBe(20)
  })
+
+ test('getTimezoneOffset is eqaul',()=>{
+    expect(dateGreeneech.getTimezoneOffset()).toBe(dateIsrael.getTimezoneOffset())
+})
