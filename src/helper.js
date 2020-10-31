@@ -13,6 +13,7 @@ function showDate(preMessage, date) {
       console.log(`date :                      ${date}`);
       console.log(`date.toLocaleString() :     ${date.toLocaleString()}`);
       console.log(`date.toUTCString() :        ${date.toUTCString()}`);
+      console.log(`date.getTime() :            ${date.getTime()}`);
       console.log();
       console.log(`date.toTimeString() :       ${date.toTimeString()}`);
       console.log(`date.toLocaleTimeString() : ${date.toLocaleTimeString()}`);
